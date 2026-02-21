@@ -298,5 +298,6 @@ export function useCalendarApp(
     getVisibleMonth: () => app.getVisibleMonth(),
     sidebarConfig,
     readOnlyConfig: app.getReadOnlyConfig(),
+    emitVisibleRange: app.emitVisibleRange,
   };
 }

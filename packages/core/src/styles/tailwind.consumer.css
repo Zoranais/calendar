@@ -1,0 +1,9 @@
+/* To generate on consumer-side */
+@import '@dayflow/blossom-color-picker/styles.css';
+
+@source "./index.js";
+@source "./index.esm.js";
+
+@variant dark (.dark &);
+
+@import './base.css';

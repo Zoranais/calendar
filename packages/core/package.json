@@ -11,7 +11,8 @@
       "import": "./dist/index.esm.js",
       "require": "./dist/index.js"
     },
-    "./dist/styles.css": "./dist/styles.css"
+    "./dist/styles.css": "./dist/styles.css",
+    "./dist/styles.source.css": "./dist/styles.source.css"
   },
   "files": [
     "dist",
