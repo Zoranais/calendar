@@ -39,6 +39,8 @@ CSS ファイルで読み込みたい場合は次のように記述できます�
 ```tsx
 // Tailwind CSS プロジェクト向け — CSS リセットなし、競合なし
 import '@dayflow/core/dist/styles.components.css';
+@source "../../node_modules/@dayflow/core/dist/index.js";
+@source "../../node_modules/@dayflow/core/dist/index.esm.js";
 ```
 
 ## 基本的な使い方
